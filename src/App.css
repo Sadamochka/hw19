@@ -1,6 +1,51 @@
 .App {
-  text-align: center;
+  text-align: center;}
+.menu{
+  display: flex;
+  flex-direction: row;
 }
+
+
+body {
+  background-color: black;
+  color: rgb(246, 153, 219);}
+  .post {
+    background-color: rgb(84, 84, 84);
+    border-radius: 20px;
+    width: 50%;
+  margin-left: 5%;
+  padding-top: 10px;}
+  .logo_photo {
+    height: 100px;
+    border-radius: 100px;
+  }
+  .nameAndData {
+    font-size: small;
+    color: gray;
+  }
+  .headName {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 4%;
+    gap: 30px;
+  }
+  .text {
+    color: bisque;
+    margin-left: 10%;
+  font-size: medium;}
+  .pfotoInProfire {
+    margin-left: 10%;
+  }
+  .fotterButton {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10%;
+   gap: 28%;
+  cursor: pointer;}
 
 .App-logo {
   height: 40vmin;
